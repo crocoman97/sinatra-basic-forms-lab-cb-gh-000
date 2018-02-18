@@ -6,6 +6,8 @@ class App < Sinatra::Base
     erb :index
   end 
   
-  
+  get '/form' do 
+    erb :create_puppy
+  end
 
 end
