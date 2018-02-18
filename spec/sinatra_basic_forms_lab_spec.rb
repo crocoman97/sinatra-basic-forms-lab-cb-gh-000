@@ -1,17 +1,17 @@
 describe App do
 
-  describe 'GET /' do
+  # describe 'GET /' do
     
-    it 'sends a 200 status code' do
-      get '/'
-      expect(last_response.status).to eq(200)
-    end
+  #   it 'sends a 200 status code' do
+  #     get '/'
+  #     expect(last_response.status).to eq(200)
+  #   end
 
-    it 'renders welcome' do 
-      visit '/'
-      expect(page).to have_link("Click Here To List A Puppy")
-    end
-  end
+  #   it 'renders welcome' do 
+  #     visit '/'
+  #     expect(page).to have_link("Click Here To List A Puppy")
+  #   end
+  # end
 
   # describe 'GET /NEW' do 
   #   it 'sends a 200 status code' do
