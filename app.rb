@@ -1,4 +1,5 @@
 require_relative 'config/environment'
+require_relative 'models/'
 
 class App < Sinatra::Base
   
@@ -11,6 +12,7 @@ class App < Sinatra::Base
   end
   
   post '/display_puppy' do 
+    
     :display_puppy
   end
 
